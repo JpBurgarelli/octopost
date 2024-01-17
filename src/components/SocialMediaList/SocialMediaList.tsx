@@ -40,7 +40,7 @@ const SocialMediaList = (props: ISocialMediaList) => {
         </div>
         {tag}
         <button onClick={() => handleRemoveTag(tag)}>
-          <img className={scss.icon} src={RemoveIcon} alt="icone de remover" />
+          <img className={scss.icon} src={RemoveIcon} alt="Ícone para apagar uma tag" />
         </button>
       </div>
     ));
@@ -52,7 +52,7 @@ const SocialMediaList = (props: ISocialMediaList) => {
       </div>
       <div>
         <button className={scss.addButton} onClick={handleAddTag}>
-          <img src={PlusIcon} alt="Icone de mais" />
+          <img src={PlusIcon} alt="Ícone de adicionar nova tag" />
         </button>
       </div>
     </div>
